@@ -10,12 +10,12 @@ This project is splitted in three different layers, and this repository only con
 
 2. _src_: Main code folder:
 
-..* _actions_: Set of Redux actions is defined here.
-..* _api_: API calls are placed here and separated by domain issue. 
-..* _components_: The core app implementation. The React components are separated into folders each one representing the four main app screens (Authentication, Home, User and Station) plus the modal windows. 
-..* _reducers_: Set of Redux stores is defined here.
-..* _resources_: Basically the set of images used by the app. 
-..* _utils_: Several files containing multi-used functions and behaviors through the app, regarding different aspects.
+* _actions_: Set of Redux actions is defined here.
+* _api_: API calls are placed here and separated by domain issue. 
+* _components_: The core app implementation. The React components are separated into folders each one representing the four main app screens (Authentication, Home, User and Station) plus the modal windows. 
+* _reducers_: Set of Redux stores is defined here.
+* _resources_: Basically the set of images used by the app. 
+* _utils_: Several files containing multi-used functions and behaviors through the app, regarding different aspects.
 
 3. _test_: Test sets, one for each application screen. Implemented with [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver/) plus helper libraries such as [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
 
